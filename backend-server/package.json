@@ -1,0 +1,28 @@
+{
+  "name": "blog-engine-server",
+  "version": "1.0.0",
+  "description": "For the full-stack web development assignment",
+  "main": "server.js",
+  "scripts": {
+    "test": "mocha ./tests/test.*.js --reporter spec --log-level=warn --timeout 10000",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ash Williams",
+  "license": "MIT",
+  "dependencies": {
+    "bad-words": "^3.0.4",
+    "body-parser": "^1.20.0",
+    "chai": "^4.3.6",
+    "chai-http": "^4.3.0",
+    "cors": "^2.8.5",
+    "email-validator": "^2.0.4",
+    "express": "^4.18.1",
+    "joi": "^17.6.4",
+    "mocha": "^10.0.0",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.19",
+    "password-validator": "^5.3.0",
+    "profanity-filter": "^0.2.1",
+    "sqlite3": "^5.0.9"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "cors": "^2.8.5",
+    "email-validator": "^2.0.4",
+    "vue-router": "^4.1.6"
+  }
+}

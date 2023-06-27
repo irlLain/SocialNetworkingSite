@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background-color: #E2D4D6;
+}
+
+.Welcome{
+    width: 100%;
+    background-color: #DFBCC2;
+    border: 1px solid #DFBCC2;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+form{
+    padding: 25px;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color:#495867;
+    font-family: 'MS Gothic';
+    text-align: center;
+    font-size: 10Vh;
+}
+
+p{
+    color:#495867;
+    font-family: 'MS Gothic';
+    font-size: 3Vh;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center
+  }
+
+  .Navicontainer {
+    display: flex;
+    align-items: right;
+    justify-content: right;
+  }
+
+.label{
+    color:#495867;
+    font-family: 'MS Gothic';
+    font-size: 2.7Vh;
+}
+
+.input{
+    background-color: #F8EDEF;
+    border-color: #D88C9A;
+    color: #495867;
+    font-style: 'MS Gothic';
+}
+
+h2{
+    color:#495867;
+    font-family: 'MS Gothic';
+    text-align: center;
+    font-size: 3Vh;
+}
+
+h3{
+    color:#495867;
+    font-family: 'MS Gothic';
+    text-align: left;
+    font-size: 3Vh;
+}
+
+ul{
+    color:#495867;
+    font-family: 'MS Gothic';
+    list-style-type: '⋆';
+    font-size: 3vh;
+}
+
+a:link{
+    color: #D88C9A;
+    text-decoration: none;
+}
+
+a:visited{
+    color:#495867;
+}
+
+a:hover{
+    color: #9046CF;
+}
+
+button{
+    border-radius:10px;
+    background-color: #e2d4d6;
+    padding: 5px;
+    border: 2px solid #D88C9A;
+    color: #D88C9A;
+    height: fit-content;
+}
+
+button:hover{
+    border-radius:10px;
+    background-color: #e2d4d6;
+    padding: 5px;
+    border: 2px solid #9046CF;
+    color: #9046CF ;
+}
